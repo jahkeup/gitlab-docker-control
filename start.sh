@@ -46,7 +46,7 @@ else
         -e "SMTP_PASS=$SMTP_PASS" \
         -e "SMTP_STARTTLS=false" \
         -e "SMTP_AUTHENTICATION=$SMTP_AUTH_METHOD" \
-        sameersbn/gitlab:7.0.0
+        sameersbn/gitlab:7.1.1
 fi
 echo "Please give the app a minute to spin up its rotors.."
 exit 0

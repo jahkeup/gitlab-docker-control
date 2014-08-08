@@ -27,5 +27,5 @@ docker run --name=gitlab -i -t --rm  \
        -e "DB_PASS=$DB_PASS" \
        -e "DB_NAME=$DB_NAME" \
        -v $GITLAB_DATA_PATH:/home/git/data \
-       sameersbn/gitlab:7.0.0 app:rake gitlab:setup
+       sameersbn/gitlab:7.1.1 app:rake gitlab:setup
 
